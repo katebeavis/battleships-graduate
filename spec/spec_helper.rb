@@ -1,7 +1,7 @@
 require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
-require 'capybara/rspec'
-
 require 'coveralls'
 Coveralls.wear!
+
+require 'capybara/rspec'
