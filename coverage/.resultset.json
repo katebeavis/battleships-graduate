@@ -1,0 +1,33 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/katebeavis/Development/projects/makers/battleships-graduate/lib/board.rb": [
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/katebeavis/Development/projects/makers/battleships-graduate/spec/features/ships_are_placed_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1430766864
+  }
+}
