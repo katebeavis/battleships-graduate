@@ -11,4 +11,14 @@ describe Board do
   it 'has empty cells before ships are placed' do
     expect(subject.grid[:A1]).to eq('')
   end
+
+  describe 'placing ships' do
+
+    let(:ship) { double :ship }
+
+    it 'a ship can be placed on the board' do
+      subject.place_ship(ship, :A1)
+      expect(subject.grid[:A1]).to eq(ship)
+    end
+  end
 end
