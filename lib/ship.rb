@@ -6,7 +6,6 @@ class Ship
   attr_reader :length
 
   def initialize(length = DEFAULT_LENGTH)
-    max_length = MAX_LENGTH
     fail 'Too big' if length > MAX_LENGTH
     @length = length
   end

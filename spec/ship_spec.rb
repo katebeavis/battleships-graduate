@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'ship'
 
 describe Ship do
-  let(:ship) { Ship.new }
+  let(:ship) { described_class.new }
   it 'is created with a default size of 1' do
     expect(subject.length).to eq(1)
   end
