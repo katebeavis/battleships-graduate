@@ -1,4 +1,3 @@
-
 class Ship
   DEFAULT_LENGTH = 1
   MAX_LENGTH = 3
